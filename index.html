@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arijit's Blog</title>
+</head>
+<style>
+.container{
+background: linear-gradient(#e05858,#4747b7);
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    min-height: 900px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.title-arijit{
+    text-align: center;
+    color: #d9e0b3;
+    font-family: Italic;
+	text-decoration: underline;
+}
+.profile{
+    width: 30%;
+    height: 64%;
+    position: absolute;
+    border-radius: 24vh;
+    top: 25%;
+    right: 1%;
+    text-align: right;
+}
+img{
+    width: 54%;
+    height: 50%;
+    border-radius: 24vh;
+    top: 25%;
+}
+.designation{
+	width: 100%;
+    position: absolute;
+    color: #fff;
+    top: 51%;
+    right: 8%;
+    font-size: 3vh;
+}
+.nav-menu{
+display: flex;
+    width: 60%;
+    margin: auto;
+    font-size: 4vh;
+    color: #fff;
+}
+.nav-menu div{
+	width: 18%;
+    border: 1px solid;
+    height: 7vh;
+    text-align: center;
+    background: #365b82;
+    padding-top: 1.5vh;
+    border-radius: 6vh;
+    cursor: pointer;
+    margin-right: 2%;
+}
+.desc-d{
+width: 60%;
+    margin: auto;
+    margin-top: 4vh;
+    border: 1px solid;
+    min-height: 60vh;
+    overflow-y: auto;
+    box-shadow: 0px 2px 1px 2px #dfece7;
+}
+.quotes{
+   padding: 15vh;
+}
+.quotes-lab{
+	font-size: 4vh;
+    font-family: italic;
+    color: #fff;
+}
+</style>
+<script>
+function openDesc(val){
+	alert(val+" page in Progress!");
+}
+</script>
+<body>
+
+<div class="container" id="container">
+ <h1 class="title-arijit">Welcome To Arijit's blog</h1>
+ <div class="nav-menu">
+	<div onclick="openDesc('Profile');">Profile</div>
+	<div onclick="openDesc('Career');">Career</div>
+	<div onclick="openDesc('Personal');">Personal</div>
+	<div onclick="openDesc('Professional');">Professional</div>
+	<div onclick="openDesc('Family');">Family</div>
+ </div>
+ <div class="desc-d">
+ <div class="quotes"> 
+ <label class="quotes-lab">Worry does not empty tomorrow of its troubles. It empties today of its strength.</label>
+ <label>~~Arijit</label>
+ 
+ </div>
+ </div>
+ 
+ <div class="profile">
+ <img src="C:\Users\z0904\Downloads\arijit.jpg">
+ <label class="designation">Technical Arhitect</label>
+ </div>
+</div>
+
+
+
+</body>
+</html>
